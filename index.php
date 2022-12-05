@@ -1,3 +1,5 @@
 <?php
 
-echo 'test';
+class A implements \Iterator {}
+
+class B implements \IteratorAggregate {}
